@@ -1,0 +1,17 @@
+/* Cambio de color de fondo de Aventura */
+.ContenedorAventura{	background: #87c3c7;
+	background-image: linear-gradient(90deg, #f7fcf0, #e5f5df, #d4eece, #bde5bf,
+		#9fd9bb, #7bcbc4, #58b7cd, #399cc6, #1e7eb7, #0b60a1, #0b60a1);
+}
+/* Cambio de color de fondo de Index-Inicio2 */
+.contenedor {
+	width:100%;
+	height:100%;
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+/* Cambio de color de fondo de Accion */
+.ContenedorAccion{
+	background: #7fc1a3;
+	background-image: linear-gradient(90deg, #f7fcfd, #e8f6f9, #d5efed, #b7e4da, 
+		#8fd4c1, #69c2a3, #49b17f, #2f995a, #157f3c, #036429, #036429);
+}

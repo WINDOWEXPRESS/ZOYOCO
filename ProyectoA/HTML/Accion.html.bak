@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>ZOYOCO</title>
+		<meta charset="utf-8"/>
+		<meta name="Author"	content="Zhouyi Chen"/>
+		<meta name="Editor"	content="Notepad++"/>
+		<link rel="stylesheet" href="../Css/Css-principal.css" type="text/css"/>
+		<link rel="stylesheet" href="../Css/COLORDEFONDO.css" type="text/css"/>
+		<link rel="icon"	type="image/ico"	href="Imagenes/Favicon/Icono.ico"/>
+	</head>
+	<body>
+	<div class="ContenedorAccion">
+		<div class="contenedor2">
+			<div class="header">
+				<div class="LogoWeb">
+					<a href="../Index.html"><img class="Favicon32x32" src="../Imagenes/Favicon/favicon-32x32.png" alt="Favicon32*32"> ZOYOCO
+					<img class="Favicon32x32" src="../Imagenes/Favicon/favicon-32x32.png" alt="Favicon32*32"></a>
+				</div>
+				<div class="Nav-Menu">
+					<div class="Dest">Los juegos m&aacute;s baratos que encontrar&aacute;s!!!</div>
+					<nav class="Menu">
+						<ul>
+							<li>
+								<a href="../Index.html">Inicio</a>
+							</li>
+							<li>
+								<a href="../Index.html">Juegos PC</a> 	<!-- direccion -->
+									<ul>
+										<li><a href="Accion.html">Acción</a></li>
+										<li><a href="Aventura.html">Aventura</a></li>
+										<li><a href="">Carreras</a></li>
+										<li><a href="">Deporte</a></li>
+										<li><a href="">Disparos</a></li>
+										<li><a href="">Multijugador</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="">Juegos De Mesa</a>		<!-- direccion -->
+							</li>
+							<li>
+								<a href="Registro.html">Registrarse</a>
+							</li>
+						</ul>
+					</nav>
+				</div>	
+			</div>
+			<div class="SECTION">
+				<!-- Buscador en Capa de section -->
+				<div class="Buscador">
+					<img class="INSTFCBWSPP" src="../Imagenes/CapaDeBuscar/Buscador.png"  alt="Icono de buscar">
+					<label><input class="InputBuscador" type="search"  placeholder="Buscar aqui" name="Buscador"></label>
+					<a href="https://www.instagram.com/?hl=es"><img class="INSTFCBWSPP" src="../Imagenes/CapaDeBuscar/Insta.jpg" alt="Icono de Instagram"></a>
+					<a href="https://es-es.facebook.com/"><img class="INSTFCBWSPP" src="../Imagenes/CapaDeBuscar/Fcbk.jpg"  alt="Icono de Facebook"></a>
+					<a href="https://web.whatsapp.com/"><img class="INSTFCBWSPP" src="../Imagenes/CapaDeBuscar/Whatsapp.png"  alt="Icono de Whatsapp"></a>
+				</div>
+				<!-- Contenido de section -->
+				<div class="CTND_SECTION">
+					<h1>Juegos De Accion</h1>
+					<div class="Producto">
+<!-- HREF EN LOS IMAGENES-->
+						<a href="">	
+							<img class="zoom imagenes" src="../Imagenes/Accion/ASSAC3.jpg" alt="Assassins Creed 3" title="Assassins Creed 3">
+						</a>
+							
+						<div class="precio">
+							<a><span><del>39€</del>--------</span>9.99€</a>
+						</div>
+						<div class="NombreJuego">
+							<a>Assassins Creed 3</a>
+						</div>
+					</div>
+					
+					<div class="Producto">
+<!-- HREF EN LOS IMAGENES-->
+						<a href="">	
+							<img class="zoom imagenes" src="../Imagenes/Accion/Borderlands2.jpeg" alt="Borderlands2" title="Borderlands2">
+						</a>
+						<div class="precio">
+							<a><span><del>59€</del>--------</span>0.2€</a>
+						</div>
+						<div class="NombreJuego">
+							<a>Borderlands2</a>
+						</div>
+					</div>
+					
+					<div class="Producto">
+<!-- HREF EN LOS IMAGENES-->
+						<a href="">	
+							<img class="zoom imagenes" src="../Imagenes/Accion/WatchDogs2.jpg" alt="WatchDogs2" title="WatchDogs2">
+						</a>
+						<div class="precio">
+							<a><span><del>16€</del>--------</span>5.99€</a>
+						</div>
+						<div class="NombreJuego">
+							<a>Watch Dogs2</a>
+						</div>
+					</div>
+					
+					<div class="Producto">
+<!-- HREF EN LOS IMAGENES-->
+						<a href="">	
+							<img class="zoom imagenes" src="../Imagenes/Accion/cyberpunk-2077.jpg" alt="Cyberpunk-2077" title="Cyberpunk-2077">
+						</a>
+							
+						<div class="precio">
+							<a><span><del>69€</del>--------</span>11€</a>
+						</div>
+						<div class="NombreJuego">
+							<a>Cyberpunk 2077</a>
+						</div>
+					</div>
+					
+					<div class="Producto">
+<!-- HREF EN LOS IMAGENES-->
+						<a href="">	
+							<img class="zoom imagenes" src="../Imagenes/Accion/Diablo.jpeg" alt="Diablo" title="Diablo">
+						</a>
+						<div class="precio">
+							<a><span><del>29.99€</del>--------</span>9.99€</a>
+						</div>
+						<div class="NombreJuego">
+							<a>Diablo</a>
+						</div>
+					</div>
+					
+					<div class="Producto">
+<!-- HREF EN LOS IMAGENES-->
+						<a href="">	
+							<img class="zoom imagenes" src="../Imagenes/Accion/DragonBallFighterZ.jpg" alt="DragonBallFighterZ" title="DragonBallFighterZ">
+						</a>
+							
+						<div class="precio">
+							<a><span><del>49.99€</del>--------</span>5.99€</a>
+						</div>
+						<div class="NombreJuego">
+							<a>DragonBall Fighter Z</a>
+						</div>
+					</div>
+					<div class="Producto">
+<!-- HREF EN LOS IMAGENES-->
+						<a href="">	
+							<img class="zoom imagenes" src="../Imagenes/Accion/HaloInfinite.jpg" alt="HaloInfinite" title="HaloInfinite">
+						</a>
+							
+						<div class="precio">
+							<a><span><del>29.99€</del>--------</span>Gratis</a>
+						</div>
+						<div class="NombreJuego">
+							<a>Halo Infinite</a>
+						</div>
+					</div>
+					<div class="Producto">
+<!-- HREF EN LOS IMAGENES-->
+						<a href="">	
+							<img class="zoom imagenes" src="../Imagenes/Accion/Witcher.jpg" alt="Witcher" title="Witcher">
+						</a>
+							
+						<div class="precio">
+							<a><span><del>49.99€</del>--------</span>9.99€</a>
+						</div>
+						<div class="NombreJuego">
+							<a>Witcher 3</a>
+						</div>
+					</div>
+					<div class="Botones">
+						<div class="SiguienteAtras">
+							<a href="../Index.html" target="_self">Siguiente</a>
+						</div>	
+						<div class="NumerosPaginas">
+							<a href="Inicio2.html" target="_self">1</a>
+						</div>
+						<div class="NumerosPaginas">
+							<a href="" target="_self">2</a>
+						</div>
+						<div class="NumerosPaginas">
+							<a href="" target="_self">3</a>
+						</div>
+						<div class="NumerosPaginas">
+							<a href="" target="_self">4</a>
+						</div>
+						<div class="SiguienteAtras">
+							<a href="#" target="_self">Atras</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ASIDE">
+				<div class="acordeonvertical">
+					<ul>
+						<li>
+							<h3>Music</h3>
+							<div>
+								<audio controls autoplay="autoplay">
+									<source src="../Imagenes/IconoDeTienda/A1TRIP-xxxmiracle.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+						</li>
+						<li>
+							<h3>Acerca de ZOYOCO</h3>
+							<div>
+								<p>Zoyoco fue fundada en España en 2022. Actualmente tenemos tiendas en Sol,Luna,Marte.<br>
+									Zoyoco vende una gran variedad de productos de entretenimientoa un precio muchisimo 
+									menor que el restos de paginas.</p>
+							</div>
+						</li>
+						<li>
+							<h3>Franquicias</h3>
+							<div>
+								<p>¿Interesado en una franquicia Zoyoco?</p>
+								<label><input  class="BotonUnirEmpresa" type="submit" value="Unete a nosotros ahora"></label>
+							</div>
+						</li>
+					</ul>
+				</div>			
+			</div>
+		</div>
+		<div class="footer">
+			<footer>
+				<a href="#">Terminos y condiciones</a>
+				<a href="#">Pago seguro</a>
+				<a href="#">Politica de privacidad</a>
+				<a href="#">Contacto</a>
+				<a href="#">FAQ</a>
+			 </footer>
+		</div>
+	</div>
+	
+	</body>
+</html>
+
+<!--  -->

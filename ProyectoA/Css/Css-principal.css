@@ -1,0 +1,378 @@
+/* -----------CURSOR------------ */
+body{
+	cursor:url(../Imagenes/CURSOR/unavailable.cur),auto;
+}
+a{
+	cursor:url(../Imagenes/CURSOR/alt.cur),pointer
+}
+/* -----------GENERAL-CUERPO------------ */
+*{
+	/*border-style:outset;*/
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	}
+.contenedor {
+	width:100%;
+	height:100%;
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.contenedor2 {
+	margin:auto;
+	position:relative;
+	width:1920px;
+	height:1500px;
+}
+/* -----------HEADER-LOGO----------- */
+.header{
+	width:1920px;
+	height:100px;
+	position:fixed;
+	z-index:10;
+	background-color:#b4cca2;
+	}
+.LogoWeb{
+	position:absolute;
+	width:550px;
+	top:0px;
+	left:50px;
+}
+.LogoWeb a{
+	font-size:75px;
+	color:white;
+	font-family:fantasy;
+}
+.Favicon32x32{
+	width:60px;
+}
+.Dest{
+	font-size:40px;
+	color:white;
+	font-family:fantasy;
+	position:relative;
+	height:0px; 
+	top:25px;
+	left:500px;
+	
+
+}
+/* -----------MENU------------ */
+
+.Menu{
+	position:relative;
+	background-color:#b4cca2;
+	width:680px;
+	height:70px; 
+	text-align:center;
+	font-family:fantasy;
+	float:right;
+	top:30px;
+}
+
+.Nav-Menu nav ul li{
+	position:relative;
+	display:inline-block;
+	width:160px;
+	padding:10px;
+	top:0px;
+}
+.Nav-Menu nav ul li > ul{
+	display:none;
+}
+.Nav-Menu nav ul li:hover ul{
+	position:absolute;
+	display:block;
+	top:40px;
+	left:0;
+}
+.Nav-Menu nav ul li:hover {
+	background-color:#78ad7c;
+	border-radius:5px;
+}
+a {
+	font-size:20px;
+	text-decoration:none;
+	color:white;
+}
+
+
+li > ul {
+	background-color:#b4cca2;
+}
+
+/* -----------Buscador------------ */
+.Buscador{
+	position:absolute;
+	float:right;
+	top:px;
+	left:1300px;
+	width:700px;
+	height:60px;
+	padding:0px;
+
+}
+.InputBuscador{
+    width: 400px;
+    height: 45px;
+	border-radius:20px;
+    font-size: 30px;
+    text-align:center;
+	
+	
+}
+.INSTFCBWSPP{
+		position:relative;
+		top:10px;
+		width:40px;
+}
+/* -----------Section------------ */
+.SECTION {
+	position:absolute;
+	width:1900px;
+	top:100px;
+	margin-bottom:200px;
+	
+}
+.CTND_SECTION {
+
+	width:1350px;
+	margin:auto;
+}
+/* -----------Productos------------ */
+.imagenes{
+	width:220px; 
+	height:310px;
+}
+.Producto{
+	position:relative;
+	display:inline-block;
+	height:300px;
+	width:225px;
+	top:10px;
+	left:20px;
+	margin:50px;
+	padding:1px; 
+	
+
+}
+.NombreJuego{
+	font-family:fantasy;
+	font-size:12px;
+	position:relative;
+	top:-95px;
+}
+.precio {
+	position:relative;
+	display:inline-block;
+	background-color:red;
+	width:220px;
+	text-align:center;
+	top:-50px;
+	margin:45px;
+	left:-45px;
+	
+}
+.zoom {
+	
+    transition: transform .2s; 
+}
+ 
+.zoom:hover{
+    transform: scale(1.5); 
+	z-index:30;
+}
+h1{
+	font-family:fantasy;
+	color:black;
+	font-size:50px;
+	text-align:center;
+	text-shadow: 5px 5px 5px white;
+}
+/* ------------ASIDE------------- */
+.ASIDE{
+	Width:250px;
+	height:200px;
+	position:fixed;
+	top:220px;
+}
+.acordeonvertical>ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 250px;
+ }
+.acordeonvertical>ul>li { 
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 30px;
+	width: 250px;
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 20px;
+	transition: height .3s ease-in-out;
+	-moz-transition: height .3s ease-in-out;
+	-webkit-transition: height .3s ease-in-out;
+	-o-transition: height .3s ease-in-out;
+}
+.acordeonvertical>ul>li>h3 {
+	display: block;
+	margin: 0;
+	padding: 0px;
+	text-align:center;
+	height: 23px;
+	border-top: #f0f0f0 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: white;
+	background: rgb(185,205,225);
+}
+.acordeonvertical>ul>li>div { 
+	margin:0;
+	overflow: auto;
+	padding: 10px;
+	height: 150px;
+ }
+.acordeonvertical>ul>li:hover {
+	height: 175px;
+}
+.acordeonvertical:hover>ul>li:hover>h3 { 
+	color: #fff;
+	background: rgb(125,165,205);
+	font-size: 90%;
+	}
+
+.acordeonvertical>ul>li>h3:hover {
+	cursor:pointer;
+	}
+audio{
+	width:230px;
+	height:90px;
+}
+.BotonUnirEmpresa{
+	width:200px;
+	height:50px;
+	text-align:center;
+	position:relative;
+	float:center;
+	top:20px;
+	left:15px;
+	border-radius:50px;
+	color: white;
+	font-size: 16px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	font-family:fantasy;
+	background-image: linear-gradient(to bottom, #11e789, #93c47d);
+}
+.BotonUnirEmpresa:hover{
+	background: #434343;
+	 background-image: -webkit-linear-gradient(top, #434343, #13ab7b);
+	 background-image: -moz-linear-gradient(top, #434343, #13ab7b);
+	 background-image: -ms-linear-gradient(top, #434343, #13ab7b);
+	 background-image: -o-linear-gradient(top, #434343, #13ab7b);
+	 background-image: linear-gradient(to bottom, #434343, #13ab7b);
+}
+
+/* -----------Botones------------ */
+.Botones{
+	margin:auto;
+	text-align:center;
+}
+ .SiguienteAtras:hover {
+	 background: #434343;
+	 background-image: -webkit-linear-gradient(top, #434343, #13ab7b);
+	 background-image: -moz-linear-gradient(top, #434343, #13ab7b);
+	 background-image: -ms-linear-gradient(top, #434343, #13ab7b);
+	 background-image: -o-linear-gradient(top, #434343, #13ab7b);
+	 background-image: linear-gradient(to bottom, #434343, #13ab7b);
+
+}
+
+.SiguienteAtras {
+	 background: #11e789;
+	 background-image: -webkit-linear-gradient(top, #11e789, #93c47d);
+	 background-image: -moz-linear-gradient(top, #11e789, #93c47d);	  
+	 background-image: -ms-linear-gradient(top, #11e789, #93c47d);
+	 background-image: -o-linear-gradient(top, #11e789, #93c47d);
+	 background-image: linear-gradient(to bottom, #11e789, #93c47d);
+	 text-decoration: none;  
+	 -webkit-border-radius: 28;
+	 -moz-border-radius: 28;
+	 border-radius: 28px;
+	 -webkit-box-shadow: 0px 1px 3px #19d392;
+	 -moz-box-shadow: 0px 1px 3px #19d392;
+	 box-shadow: 0px 1px 3px #19d392;
+	 
+	 color: white;
+	 font-size: 20px;
+	 padding: 10px 20px 10px 20px;
+	 text-decoration: none;
+	 width:150px;
+	 text-align:center;
+	 font-family:fantasy;
+	 position:relative;
+	 display:inline-block;
+	  
+}
+ .NumerosPaginas:hover {
+	 background: #434343;
+	 background-image: -webkit-linear-gradient(top, #434343, #13ab7b);
+	 background-image: -moz-linear-gradient(top, #434343, #13ab7b);
+	 background-image: -ms-linear-gradient(top, #434343, #13ab7b);
+	 background-image: -o-linear-gradient(top, #434343, #13ab7b);
+	 background-image: linear-gradient(to bottom, #434343, #13ab7b);
+
+}
+
+.NumerosPaginas{
+	 background: #11e789;
+	 background-image: -webkit-linear-gradient(top, #11e789, #93c47d);
+	 background-image: -moz-linear-gradient(top, #11e789, #93c47d);	  background-image: -ms-linear-gradient(top, #11e789, #93c47d);
+	 background-image: -o-linear-gradient(top, #11e789, #93c47d);
+	 background-image: linear-gradient(to bottom, #11e789, #93c47d);
+	 text-decoration: none;  
+	 -webkit-border-radius: 28;
+	 -moz-border-radius: 28;
+	 border-radius: 28px;
+	 -webkit-box-shadow: 0px 1px 3px #19d392;
+	 -moz-box-shadow: 0px 1px 3px #19d392;
+	 box-shadow: 0px 1px 3px #19d392;
+	 
+	 color: white;
+	 font-size: 20px;
+	 padding: 10px 20px 10px 20px;
+	 text-decoration: none;
+	 width:150px;
+	 text-align:center;
+	 font-family:fantasy;
+	 position:relative;
+	 display:inline-block;
+	  
+}
+/* ----------Imagen de Error404---------- */
+.Error404{
+	position:relative;
+	Width:100%;
+	height:100%;
+	top:50px;
+}
+
+
+/* ----------Footer---------- */
+.footer {
+	position:relative;
+	padding:30px;
+	margin:20px;
+	text-align:center;
+	top:-300px;
+}
+.footer a{
+	padding:30px;
+	font-size:30px;
+	color: white;
+	font-family:fantasy;
+}

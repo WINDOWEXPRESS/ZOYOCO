@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>ZOYOCO</title>
+		<meta charset="utf-8"/>
+		<meta name="Author"	content="Zhouyi Chen"/>
+		<meta name="Editor"	content="Notepad++"/>
+		<link rel="stylesheet" href="../../Css/Css-principal.css" type="text/css"/>
+		<link rel="stylesheet" href="../../Css/COLORDEFONDO.css" type="text/css"/>
+		<link rel="stylesheet" href="../../Css/ContenidoJuego.css" type="text/css"/>
+		<link rel="icon"	type="image/ico"	href="../../Imagenes/Favicon/Icono.ico"/>
+	</head>
+	<body>
+	<div class="contenedor">
+		<div class="contenedor2">
+			<div class="header">
+				<div class="LogoWeb">
+					<a href="../../Index.html"><img class="Favicon32x32" src="../../Imagenes/Favicon/favicon-32x32.png" alt="Favicon32*32"> ZOYOCO
+					<img class="Favicon32x32" src="../../Imagenes/Favicon/favicon-32x32.png" alt="Favicon32*32"></a>
+				</div>
+				<div class="Nav-Menu">
+					<div class="Dest">Los juegos m&aacute;s baratos que encontrar&aacute;s!!!</div>
+					<nav class="Menu">
+						<ul>
+							<li>
+								<a href="../../Index.html">Inicio</a>
+							</li>
+							<li>
+								<a href="../Index.html">Juegos PC</a>
+									<ul>
+										<li><a href="../Accion.html">Acción</a></li>
+										<li><a href="../Aventura.html">Aventura</a></li>
+										<li><a href="">Carreras</a></li>
+										<li><a href="">Deporte</a></li>
+										<li><a href="">Disparos</a></li>
+										<li><a href="">Multijugador</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="../404JUEGODEMESA.html">Juegos De Mesa</a>
+							</li>
+							<li>
+								<a href="../Registro.html">Registrarse</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				
+			</div>
+			
+			<div class="SECTION">
+				<!-- Buscador en Capa de section -->
+				<div class="Buscador">
+					<img class="INSTFCBWSPP" src="../../Imagenes/CapaDeBuscar/Buscador.png"	alt="Icono de buscar">
+					<label><input class="InputBuscador" type="search"  placeholder="Buscar aqui" name="Buscador"></label>
+					<a href="https://www.instagram.com/?hl=es"><img class="INSTFCBWSPP" src="../../Imagenes/CapaDeBuscar/Insta.jpg" alt="Icono de Instagram"></a>
+					<a href="https://es-es.facebook.com/"><img class="INSTFCBWSPP" src="../../Imagenes/CapaDeBuscar/Fcbk.jpg" alt="Icono de Facebook"></a>
+					<a href="https://web.whatsapp.com/"><img class="INSTFCBWSPP" src="../../Imagenes/CapaDeBuscar/Whatsapp.png" alt="Icono de Whatsapp"></a>
+				</div>
+				<!-- Contenido de section -->
+				<div class="ContenidoJuego">
+					<div class="CapasDeJuego">
+						<div class="ImagenCapa1">
+							<img class="zoom imagenes ImagenCapa" src="../../Imagenes/JuegosDosPersonas/overcooked2-3.jpg" alt="OverCooked!2" title="OverCooked!2">
+						</div>
+						<div class="ImagenCapa2">
+							<img class="zoom imagenes ImagenCapa1" src="../../Imagenes/JuegosDosPersonas/overcooked2-2.jpg" alt="OverCooked!2" title="OverCooked!2">
+						</div>
+						<div class="ImagenCapa3">
+							<img class="zoom imagenes ImagenCapa2" src="../../Imagenes/JuegosDosPersonas/overcooked2-1.jpg" alt="OverCooked!2" title="OverCooked!2">
+						</div>
+						<div class="ImagenCapa4">
+							<img class="zoom imagenes ImagenCapa3" src="../../Imagenes/JuegosDosPersonas/Overcooked2.png"	alt="OverCooked!2" title="OverCooked!2">
+						</div>
+					</div>
+					<div class="InforJuego">
+						<div>
+							<h1>Overcooked! 2</h1>
+						</div>
+						<div class="EstadoJuego">
+							<h2>En stock</h2>
+							<h2>Descarga inmediata</h2>
+						</div>
+						<div class="PlataformaSistema">
+							<img class="TamanoIconoTienda" src="../../Imagenes/IconoDeTienda/Steam.png" alt="ImagenesdDeJuego"/>
+							<img class="TamanoIconoTienda" src="../../Imagenes/IconoDeTienda/check.png" alt="ImagenesdDeJuego"/>
+							<img class="TamanoIconoTienda" src="../../Imagenes/IconoDeTienda/Epic.png" alt="ImagenesdDeJuego"/>
+							<img class="TamanoIconoTienda" src="../../Imagenes/IconoDeTienda/check.png" alt="ImagenesdDeJuego"/>
+							<img class="TamanoIconoTienda" src="../../Imagenes/IconoDeTienda/Windows.png" alt="ImagenesdDeJuego"/>
+							<img class="TamanoIconoTienda" src="../../Imagenes/IconoDeTienda/check.png" alt="ImagenesdDeJuego"/>
+							<img class="TamanoIconoTienda" src="../../Imagenes/IconoDeTienda/Mac.png" alt="ImagenesdDeJuego"/>
+							<img class="TamanoIconoTienda" src="../../Imagenes/IconoDeTienda/check.png" alt="ImagenesdDeJuego"/>
+						</div>
+						<div class="GeneroJuegos">
+							<p>Simulación</p>
+							<p>Multijugador</p>
+							<p>Cooperativo</p>
+							<p>Un jugador</p>
+							<p>...</p>
+						</div>
+						<div class="LikeBuy">
+							<a href="#">Comprar</a>
+							<a><img class="MeGusta" alt="Cambiar MeGusta" onmouseout="this.src='../../Imagenes/IconoDeTienda/corazonB.png';"
+							onmouseover="this.src='../../Imagenes/IconoDeTienda/corazonR.png'"
+							src="../../Imagenes/IconoDeTienda/corazonB.png" />Favorito</a>
+						</div>
+						<div class="Requisitos">	
+							<table>
+								<tr>
+									<th></th>
+									<th>Requisitos Minimos Windows</th>
+									<th>Requisitos Minimos Mac</th>
+									<th>Lanzamiento</th>
+								</tr>
+								<tr>
+									<th>Sistema Operativo</th>
+									<td>WIN7-64 bit</td>
+									<td>OSX 10.12.6 - Sierra</td>
+									<td rowspan="6">3/8/2016</td>
+								</tr>
+								<tr>
+									<th>Procesador</th>
+									<td>Intel i5-4590</td>
+									<td>Intel Core i5 @2.7Ghz</td>
+								</tr>
+								<tr>
+									<th>Memoria</th>
+									<td>4096 MB de RAM</td>
+									<td>8 GB de RAM</td>
+								</tr>
+								<tr>
+									<th>Gráficos</th>
+									<td>GeForce GTX 650</td>
+									<td>GeForce GT 640M 512Mb</td>
+								</tr>
+								<tr>
+									<th>DirectX</th>
+									<td>Versión 11</td>
+									<td>-</td>
+								</tr>
+								<tr>
+									<th>Almacenamiento</th>
+									<td>3 GB de espacio disponible</td>
+									<td>3 GB de espacio disponible</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="Descripcionjuego">
+						<h3>Descripcion de juego</h3>
+						<p>Overcooked es un videojuego de cocina desarrollado por Ghost Town Games y publicado por Team17. 
+							Es un juego cooperativo local en el que dos jugadores toman el rol de chefs y deben cocinar los pedidos 
+							en el tiempo establecido mientras se mueven entre plataformas, portales, escaleras que se mueven, etc. 
+							Fue lanzado para Windows, PlayStation 4 y Xbox One en 2016. Fue lanzado en Nintendo Switch el 27 de julio de 2017.
+							Overcooked recibió críticas favorables, 
+							recibió 4 premios en los Premios BAFTA de Videojuegos de 2016 y ganó premios al Mejor Juego Británico 
+							y al Mejor Juego Familiar. Tuvo una secuela llamada Overcooked 2 en agosto de 2018.
+						</p>
+						<h3>Jugabilidad</h3>
+						<p>En Overcooked los jugadores deben preparar comidas cogiendo los ingredientes en los lugares indicados para luego ir a cortar, 
+							cocinar, poner en un plato y servir el plato en los lugares correspondientes. 
+							Existe también un basurero para eliminar la comida mal hecha (con uno o varios ingredientes de más o que se quemó). 
+							Los chefs deben trabajar para completar los pedidos antes que se acabe el tiempo, 
+							los platos bien hechos servidos darán monedas con bonificación por velocidad, 
+							mientras que los mal hechos no ganarán monedas. El objetivo del juego es ganar la mayor cantidad posible de monedas. 
+							Al final de cada nivel los jugadores reciben de una a tres estrellas según las monedas que hayan recolectado.
+						</p>
+					</div>
+					<div class="CapaVideosJuego">
+						<iframe class="VideosJuego" src="https://www.youtube.com/embed/qpzmirQllT0" title="Overcooked! 2 Trailer"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="ASIDE">
+					<div class="acordeonvertical">
+						<ul>
+							<li>
+								<h3>Music</h3>
+								<div>
+									<audio controls autoplay="autoplay">
+										<source src="../../Imagenes/IconoDeTienda/A1TRIP-xxxmiracle.mp3" type="audio/mpeg">
+									</audio>
+								</div>
+							</li>
+							<li>
+								<h3>Acerca de ZOYOCO</h3>
+								<div>
+									<p>Zoyoco fue fundada en España en 2022. Actualmente tenemos tiendas en Sol,Luna,Marte.<br>
+										Zoyoco vende una gran variedad de productos de entretenimientoa un precio muchisimo 
+										menor que el restos de paginas.</p>
+								</div>
+							</li>
+							<li>
+								<h3>Franquicias</h3>
+								<div>
+									<p>¿Interesado en una franquicia Zoyoco?</p>
+									<label><input  class="BotonUnirEmpresa" type="submit" value="Unete a nosotros ahora"></label>
+								</div>
+							</li>
+						</ul>
+					</div>			
+				</div>
+			</div>
+			<div class="footer">
+				<footer>
+					<a href="#">Terminos y condiciones</a>
+					<a href="#">Pago seguro</a>
+					<a href="#">Politica de privacidad</a>
+					<a href="#">Contacto</a>
+					<a href="#">FAQ</a>
+				 </footer>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
+
+<!--	FOL 20 abril miercoles hay clases de fol -->

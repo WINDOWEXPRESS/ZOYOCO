@@ -1,0 +1,181 @@
+
+.ContenidoJuego{
+	position:relative;
+	top:50px;
+	width:1350px;
+	height:1000px;
+	margin:auto;
+	padding:20px;
+	background-color:RGB(0,0,0,.2);
+}
+
+/* ------------Capas de imagenes----------- */
+.ImagenCapa1{
+	left:10px;
+	z-index: 1;
+	position:absolute;
+}
+.ImagenCapa2{
+	left: 60px; 
+	z-index: 2;
+	position:absolute;
+}
+.ImagenCapa3{
+	left: 100px; 
+	z-index: 3;
+	position:absolute;
+}
+.ImagenCapa4{
+	left: 150px; 
+	z-index: 4;
+	position:absolute;
+}
+
+.ImagenCapa1:hover,.ImagenCapa2:hover,.ImagenCapa3:hover{
+	z-index:6;
+}
+
+/* -------------Informacion Juego----------- */
+.InforJuego{
+	width:830px;
+	height:600px;
+	position:relative;
+	float:right;
+}
+.TamanoIconoTienda{
+	width:75px;
+	height:75px;
+}
+			/*  Disponibilidad  */
+.PlataformaSistema{
+	width:100%;
+	display:inline-block;
+	padding:20px;
+	text-align:center;
+	background-color:RGB(0,0,0,.3);
+	border-radius:25px;
+}
+
+.EstadoJuego{
+	width:830px;
+	text-align:center;
+	
+}
+.EstadoJuego h2{
+	display:inline;
+	padding:50px;
+}
+/* ---------------Genero------------------ */
+.GeneroJuegos{
+	position:relative;
+	width:830px;
+	height:auto;
+	text-align:center;
+}
+.GeneroJuegos p{
+	position:relative;
+	padding:10px;
+	margin:10px;
+	display:inline-block;
+	background-color:RGB(0,0,0,.1);
+	font-size:16px;
+	font-family:fantasy;
+	border-radius:50px;
+}
+		/* Boton de  Favorito y Comprar  */
+.MeGusta{
+	width:35px;
+	height:35px;
+	left:-20px;
+	position:relative;
+	left:-20px;
+	top:5px;
+}
+.LikeBuy p{
+	position:relative;
+	display:inline-block;
+}
+.LikeBuy{
+	position:relative;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+}
+.LikeBuy a{
+	position:relative;
+	padding:10px;
+	margin:10px;
+	width:300px;
+	text-align:center;
+	display:inline-block;
+	background-color:RGB(0,0,0,.1);
+	font-size:35px;
+	font-family:fantasy;
+	border-radius:50px;;
+}
+.LikeBuy a:hover{
+	background-color:RGB(243,156,18,.9);
+	}
+
+.Requisitos{
+	background-color:RGB(0,0,0,.1);
+	position:relative;
+	width:100%;
+	height:auto;
+}
+/* ------------Tabla de Requisitos---------- */
+table{
+	width:100%;
+	border-radius:20px;
+	font-family:fantasy;
+	font-size:16px;
+	text-align:center;
+	border-collapse:collapse;
+	border-top: 1px hidden;
+	border-bottom: 1px hidden;
+	border-left: 1px hidden;
+	border-right: 1px hidden;
+}
+th {
+	border-left: 1px ;
+	border-right: 1px ;
+	text-align:left;
+	width: 25%;
+	height:30px;
+}
+table tr{ 
+	border: 1px solid black;
+}
+table th{
+  border: 1px solid black;
+}
+table td{
+  border: 1px solid black;
+}
+/* ------------Descripcion de juego---------- */
+.Descripcionjuego{
+	width:450px;
+	position:relative;
+	top:350px;
+	height:600px;
+	background-color:RGB(0,0,0,.1);
+	border-radius:25px;
+}
+.Descripcionjuego h3{
+	font-size:30px;
+	font-family:fantasy;
+	text-align:center;
+}
+.Descripcionjuego p{
+	font-size:16px;
+	font-family:fantasy;
+	padding:10px;
+}
+/* ------------Descripcion de juego---------- */
+.VideosJuego{
+	top:-40px;
+	width:830px;
+	height:390px;
+	position:relative;
+	float:right;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registro En ZOYOCO</title>
+		<meta charset="utf-8"/>
+		<meta name="Author"	content="Zhouyi Chen"/>
+		<meta name="Editor"	content="Notepad++"/>
+		<link rel="stylesheet" href="../Css/Registro.css"  type="text/css" />
+		<link rel="stylesheet" href="../Css/Css-principal.css"  type="text/css" />
+		<link rel="stylesheet" href="../Css/COLORDEFONDO.css" type="text/css"/>
+		<link rel="icon"	type="image/ico"	href="../Imagenes/Favicon/Icono.ico"/>
+	</head>
+	<body>
+		<form class="form-registro" name="NBF" action="enviado.html" method="post" enctype="multipart/form-data">
+			<h3>Formulario Registro</h3>
+			<label>
+				<input class="controles" type="text" name="Nombre" maxlength="40" required="required" placeholder="Ingresar Su Nombre">
+			</label>
+			<label>
+				<input class="controles" type="text" name="Apellidos" maxlength="40" required="required"	placeholder="Ingresar Su Apellido">
+			</label>
+			<label>
+				<input class="controles" type="email" value="usuario@ejemplo.com" name="Correo" required="required"	placeholder="Ingresar Su Correo">
+			</label>
+			<label>
+				<input class="controles" type="password"  name="Contrasenia" required="required" placeholder="Ingresar Su Contraseña">
+			</label>
+			<p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+			<label><input class="Botons" type="submit" value="Registrar"></label>
+			<p><a href="#">¿Ya tengo Cuenta?</a></p>
+		</form>
+	</body>
+</html>

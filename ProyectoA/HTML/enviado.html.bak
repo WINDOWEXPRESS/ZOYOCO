@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Registro En ZOYOCO</title>
+		<meta charset="utf-8"/>
+		<meta name="Author"	content="Zhouyi Chen"/>
+		<meta name="Editor"	content="Notepad++"/>
+		<link rel="stylesheet" href="../Css/Registro.css"  type="text/css" />
+		<link rel="stylesheet" href="../Css/COLORDEFONDO.css" type="text/css"/>
+		<link rel="stylesheet" href="../Css/Css-principal.css"  type="text/css" />
+		<link rel="icon"	type="image/ico"	href="../Imagenes/Favicon/Icono.ico"/>
+	</head>
+	<body>
+		<div class="MensajeEnvio">
+			<a href="../Index.html"><img class="ImgEnvio" src="../Imagenes/Icono de tienda/enviado.png" alt="EnviadoCorrectamente"></a>
+		</div>
+	</body>
+</html>
